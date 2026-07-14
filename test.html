@@ -3,6 +3,12 @@
     <title>Test page</title>
     <body>
         This is a body!
+        <link rel="preload" href="https://raw.githubusercontent.com/lumilovesyou/Gleebus-Webring/refs/heads/main/webring.json" as="fetch" crossorigin>
         <script src="webring.js"></script>
+        <div>
+            <button id="gleebusPrevious" onclick="gleebusOpen(-1)">Previous</button>
+            Gleebus Webring
+            <button id="gleebusNext" onclick="gleebusOpen(1)">next</button>
+        </div>
     </body>
 </html>
