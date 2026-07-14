@@ -7,7 +7,9 @@ async function loadWebring() {
 }
 
 function gleebusOpen(offset, newTab) {
-    window.open(`https://${getWrapped(webringSites, positionInList + offset)}/`, newTab ? "_blank" : "_self");
+    if (offset) {
+        window.open(`https://${getWrapped(webringSites, positionInList + offset)}/`, newTab ? "_blank" : "_self");
+    }
 }
 
 function getWrapped(array, index) {
