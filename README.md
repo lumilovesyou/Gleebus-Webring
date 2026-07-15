@@ -3,7 +3,7 @@ A very simple webring
 
 ## How to use
 
-1. Add `<script src="webring.js"></script>` to your website's head
+1. Add `<script src="https://cdn.jsdelivr.net/gh/lumilovesyou/Gleebus-Webring@main/webring.js"></script>` to your website's head
 
 2. Call the function `gleebusOpen`.
 
